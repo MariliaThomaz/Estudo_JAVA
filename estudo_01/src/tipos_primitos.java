@@ -20,6 +20,21 @@ public class tipos_primitos {
         System.out.println("double: " + d);
         System.out.println("char: " + c);
         System.out.println("boolean: " + bool);
-    }
-    
+
+
+        //string não é um tipo primitivo, mas é amplamente utilizado para 
+        // representar texto, ele  tambem não palavra reservada, mas é uma classe em Java
+        String str = "Olá, mundo!"; 
+        System.out.println("String: " + str);
+        //utilisação dos pontos  como usa -se para acessar os membros de uma
+        //  classe, como métodos e atributos.
+        str.toUpperCase(); // Exemplo de uso do método toUpperCase() da classe String
+        System.err.println(str);
+        // O método toUpperCase() retorna uma nova string em maiúsculas, mas não altera a 
+        // string original 'str', pois as strings em Java são imutáveis.
+        str = str.toUpperCase(); // Agora 'str' referencia a nova string em maiúsculas
+        System.out.println(str);    
+
+
+    }   
 }
