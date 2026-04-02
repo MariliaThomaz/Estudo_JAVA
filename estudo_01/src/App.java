@@ -31,5 +31,15 @@ public class App {
     float fahrenheit2 = (celsius * multiplicador / divisor) + 32;
     System.out.println(celsius + " graus Celsius é igual a " + fahrenheit2 + " graus Fahrenheit.");
 
+    //infencia de tipo é a capacidade do compilador de deduzir o tipo de uma variável com base no valor atribuído a ela.
+     var idade = 25; // O compilador infere que 'idade' é do tipo int com base no valor inteiro atribuído a ela.
+     var nome = "João"; // O compilador infere que 'nome' é do tipo String com base no valor de texto atribuído a ela.
+     System.out.println("Idade: " + idade); 
+     System.out.println("Nome: " + nome);
+
+
+     //int a = 10;    
+    // a = "bala" isto não pode atribuir um valor do tipo String a uma variável do tipo int, 
+    
   }
 }
