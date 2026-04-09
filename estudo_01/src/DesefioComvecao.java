@@ -7,7 +7,7 @@ decimal.
 */
 import java.util.Scanner;
 
-public class DesefioComveção {
+public class DesefioComvecao {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Digite os 3 últimos salários separados por espaço:");
